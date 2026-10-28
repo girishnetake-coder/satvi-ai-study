@@ -1,0 +1,18 @@
+name: satvi_ai_study
+description: सातवी AI Study - इयत्ता सातवी अभ्यास ॲप
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_generative_ai: ^0.4.7
+  url_launcher: ^6.2.6
+  flutter_markdown: ^0.7.4
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
